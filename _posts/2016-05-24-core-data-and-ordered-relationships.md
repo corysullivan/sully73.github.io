@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Core Data and Ordered Relationships
+tags: [coredata]
 ---
 Prior to iOS 5 if you wanted to maintain a particular order in a core data relationship, you had to create an additional index attribute for the entity and track this value manually.  This was a royal pain and prone to errors. [NSOrderedSet](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSOrderedSet_Class/index.html) was introduced in iOS 5, it gives the benefit of items having an index like an array, but also having the added benefit of guaranteeing  all items are unique
 
